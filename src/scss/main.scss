@@ -1,0 +1,32 @@
+// stylelint-disable at-rule-empty-line-before
+
+@import "variables";
+@import "functions";
+@import "mixins";
+@import "sprites";
+@import "fonts";
+@import "vendor";
+@import "base";
+@import "helpers";
+@import "icons";
+@import "pages/header";
+@import "../pages/section-top/section-top";
+@import "../pages/section-target/target";
+@import "../pages/section-three/section-three";
+@import "../pages/section-four/section-four";
+@import "../pages/section-five/section-five";
+@import "../pages/section-six/section-six";
+@import "../pages/section-seven/section-seven";
+@import "../pages/project/project";
+@import "pages/about";
+@import "pages/box-toggle";
+@import "pages/instruction";
+@import "pages/report";
+@import "pages/search";
+@import "pages/contact";
+@import "pages/idea";
+@import "pages/video";
+@import "pages/vacancy";
+@import "pages/leadership";
+@import "pages/category";
+@import "../pages/footer/footer";

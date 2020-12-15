@@ -1,0 +1,277 @@
+.default-section {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        @include mobile {
+            margin-bottom: 15px;
+        }
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 24px;
+        font-family: $roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: $color-text;
+        @include mobile {
+            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: $roboto-slab;
+        font-weight: 500;
+        color: $color-black;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    h1 {
+        margin-bottom: 25px;
+        margin-top: 25px;
+        @include css-lock(20,30,320,1440);
+        @include css-lock(25,36,320,1440, line-height);
+        @include mobile {
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+    }
+    h2 {
+        margin-top: 35px;
+        margin-bottom: 16px;
+        @include css-lock(18,25,320,1440);
+        @include css-lock(24,36,320,1440, line-height);
+        @include mobile {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    h3 {
+        margin-top: 23px;
+        margin-bottom: 15px;
+        @include css-lock(18,20,320,1440);
+        @include css-lock(24,36,320,1440, line-height);
+        @include mobile {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    ol {
+        margin: 26px 0;
+        padding: 0;
+        list-style-type: none;
+        counter-reset: list;
+        li {
+            position: relative;
+            counter-increment: list;
+            margin-bottom: 27px;
+            padding-left: 47px;
+            font-family: $roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: $color-text;
+            &::after {
+                content: counter(list);
+                position: absolute;
+                top: -5px;
+                left: 0;
+                width: 29px;
+                height: 29px;
+                font-family: $roboto-slab;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 29px;
+                color: $color-white;
+                text-align: center;
+                background: linear-gradient(180deg, #26EAD8 0%, #35D2C2 100%);
+                box-shadow: 0px 5px 7.746px rgba(22, 147, 134, 0.3);
+                border-radius: 5px;
+            }
+        }
+    }
+    ul {
+        margin: 26px 0;
+        padding: 0;
+        list-style-type: none;
+        li {
+            position: relative;
+            margin-bottom: 18px;
+            padding-left: 31px;
+            font-family: $roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: $color-text;
+            &::after {
+                content: "";
+                position: absolute;
+                top: 4px;
+                left: 0;
+                width: 12px;
+                height: 12px;
+                background: linear-gradient(180deg, #26EAD8 0%, #35D2C2 100%);
+                box-shadow: 0px 5px 7.746px rgba(22, 147, 134, 0.3);
+                border-radius: 50px;
+            }
+        }
+    }
+    a {
+        display: inline-block;
+        font-family: $roboto;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: $color-text;
+        text-decoration: underline;
+        transition: color 0.3s ease-in-out;
+        &:hover {
+            color: #128B83;
+            transition: color 0.3s ease-in-out;
+        }
+        &:visited {
+            color: #959595;
+        }
+        &:link {
+            color: $color-text;
+        }
+        &.hover {
+            color: #128B83;
+        }
+        &.active {
+            color: #959595;
+        }
+    }
+    table {
+        margin: 20px 0;
+        width: 100%;
+        font-size: 16px;
+        line-height: 22px;
+        border-collapse: separate;
+        border-spacing: 9px;
+        text-align: left;
+        max-width: 100%;
+        overflow-x: auto;
+        @include mobile {
+            display: block;
+        }
+        tr {
+            &:nth-child(even) {
+                td {
+                    background:  #EBFBF9;
+                }
+            }
+            td,
+            th {
+                padding: 9px 20px;
+            }
+        }
+        th {
+            font-family: $roboto-slab;
+            font-weight: 500;
+            color: $color-white;
+            background: $color-primary;
+        }
+        td {
+            font-family: $roboto;
+            font-weight: 400;
+            color: $color-grey;
+        }
+        tr,
+        th,
+        td {
+            width: 33.3%;
+        }
+    }
+}
+
+.downloadBlock {
+    margin: 30px 0;
+    &-item {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 20px 0;
+        border-bottom: 1px solid #E9E9E9;
+        &:first-child {
+            border-top: 1px solid #E9E9E9;
+        }
+        @include mobile {
+            flex-direction: column;
+        }
+        &-name {
+            display: flex;
+            align-items: flex-start;
+            margin-right: 20px;
+            font-family: $roboto;
+            font-size: 16px;
+            color: $color-text;
+            @include mobile {
+                margin-right: 0;
+                margin-bottom: 15px;
+                font-size: 14px;
+            }
+            svg {
+                display: inline-block;
+                width: 34px;
+                height: 36px;
+                flex: 0 0 34px;
+            }
+            span {
+                display: inline-block;
+                font-weight: bold;
+                line-height: 22px;
+            }
+            a {
+                display: inline-block;
+                font-weight: 400;
+                color: $color-text;
+                &:hover {
+                    color: #128B83;
+                }
+            }
+        }
+        &-icon {
+            margin-right: 19px;
+        }
+        &-link {
+            display: flex;
+            flex-direction: column;
+        }
+        &-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            font-family: $roboto;
+            font-size: 16px;
+            color: $color-text;
+            @include mobile {
+                width: 100%;
+                align-items: flex-start;
+                padding-left: 52px;
+                font-size: 14px;
+            }
+            date {
+                font-weight: 400;
+                line-height: 22px;
+            }
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+}

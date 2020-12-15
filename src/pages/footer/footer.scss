@@ -1,0 +1,17 @@
+.footer {
+    padding: 34px 0;
+    background: $color-primary;
+    text-align: center;
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        color: #fff;
+        width: 319px;
+        margin: 0 auto;
+        @include mobile {
+            font-size: 13px;
+            line-height: 16px;
+            width: 100%;
+        }
+    }
+}

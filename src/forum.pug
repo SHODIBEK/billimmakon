@@ -1,0 +1,63 @@
+extends pug/base
+
+append vars
+    - title = 'Материалы конференций и форумов'
+    - meta.description = 'Описание страницы'
+    - meta.viewport = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+    - link.icon = './favicon.ico'
+    - meta.formatDetection = 'telephone=no'
+    - meta.themeColor = '#1cd8c7'
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1cd8c7">
+    - defaultLink = 'javascript:void(0);'
+    - body.classList = ['inner-page']; 
+block content
+    .wrapper
+        // Шапка сайта
+        include pages/header/header
+        // Контент
+        .main
+            .crumbs
+                .container
+                    ul
+                        li
+                            a(href=`/` title="На главную")
+                                | Главная
+                        li
+                            span Материалы конференций и форумов
+            .inner-title
+                .container
+                    h1
+                        | Материалы конференций и форумов
+            .main-wrapper
+                .container
+                    .instruction-items
+                        -for(var i = 0; i < 4; i++) {
+                            .instruction-item
+                                a(href="#" title="").instruction-item-link
+                                    .instruction-item-img(style="background-image: url('images/content/ins-1.jpg');")
+                                    .instruction-item-title
+                                        h5 Здесь будет названия Материала конференции педагога в две строки или в несколько строк для примера
+                                        span.circle-btn
+                                            | Перейти
+                            .instruction-item
+                                a(href="#" title="").instruction-item-link
+                                    .instruction-item-img(style="background-image: url('images/content/ins-2.jpg');")
+                                    .instruction-item-title
+                                        h5 Здесь будет названия Материала конференции педагога в две строки 
+                                        span.circle-btn
+                                            | Перейти
+                            .instruction-item
+                                a(href="#" title="").instruction-item-link
+                                    .instruction-item-title
+                                        h5 Здесь будет названия Материала конференции педагога в две строки
+                                        span.circle-btn
+                                            | Перейти
+                        - }
+                    .btn-block
+                        button(type="button").btn
+                            span показать еще
+        include pages/footer/footer

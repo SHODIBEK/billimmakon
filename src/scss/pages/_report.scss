@@ -1,0 +1,40 @@
+.report-block {
+    background: url('../images/content/report-bg.png') center;
+
+    &-title {
+        width: 65%;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 36px;
+        color: $color-black;
+        text-align: center;
+        margin: 0 auto;
+        @include mobile {
+            width: 100%;
+            line-height: 25px;
+        }
+    }
+    &-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+        input,
+        textarea {
+            width: 552px;
+            @include mobile {
+                width: 100%;
+            }
+        }
+    }
+    .submit-btn {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

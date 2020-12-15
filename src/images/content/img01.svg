@@ -1,0 +1,105 @@
+<svg id="Группа_2" data-name="Группа 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="263" height="283" viewBox="0 0 263 283">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1cd8c7;
+        stroke: #fff;
+        stroke-dasharray: 4 2;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #30eddc;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-2, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #128b83;
+        opacity: 0.2;
+      }
+
+      .cls-4, .cls-5, .cls-7 {
+        fill: #fdec00;
+      }
+
+      .cls-4 {
+        filter: url(#filter);
+      }
+
+      .cls-5 {
+        filter: url(#filter-2);
+      }
+
+      .cls-12, .cls-6 {
+        fill: #128b83;
+      }
+
+      .cls-7 {
+        filter: url(#filter-3);
+      }
+
+      .cls-8 {
+        fill: #006460;
+      }
+
+      .cls-9 {
+        fill: #feec02;
+      }
+
+      .cls-10 {
+        fill: #f3ad4d;
+      }
+
+      .cls-11 {
+        fill: #fff;
+      }
+
+      .cls-13 {
+        fill: #ffd4b0;
+      }
+    </style>
+    <filter id="filter" x="148.5" y="247.5" width="10" height="10" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="148.5" y="247.5" width="10" height="10" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgb3BhY2l0eTogMC43NTsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjEwIiB5MT0iMTAiIHgyPSIwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZjg5MiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZjc4MzUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIi8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="33.5" y="99.5" width="6" height="6" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="33.5" y="99.5" width="6" height="6" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiB2aWV3Qm94PSIwIDAgNiA2Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBvcGFjaXR5OiAwLjc1OwogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iNiIgeTE9IjYiIHgyPSIwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZjg5MiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZjc4MzUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjYiIGhlaWdodD0iNiIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="184.875" y="51.88" width="27.25" height="27.24" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="184.875" y="51.88000000000011" width="27.25" height="27.24" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjcuMjUiIGhlaWdodD0iMjcuMjQiIHZpZXdCb3g9IjAgMCAyNy4yNSAyNy4yNCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgb3BhY2l0eTogMC43NTsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjAuMDA1IiB5MT0iMjcuMjQiIHgyPSIyNy4yNDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZmODkyIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmNzgzNSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMjcuMjUiIGhlaWdodD0iMjcuMjQiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rounded_Rectangle_11_copy_3" data-name="Rounded Rectangle 11 copy 3" class="cls-1" x="0.5" y="0.5" width="262" height="282" rx="10" ry="10"/>
+  <g id="Back">
+    <path id="Shape_5_copy" data-name="Shape 5 copy" class="cls-2" d="M513.933,2004.03c13.541,4.52,25.065,14.24,45.466,23.84,23.047,10.78,53.133-8.81,63.19-20s24.821-28.17,13.1-64.61c-8.77-25.34-24.23-49.94-54.713-71.53-26.579-18.38-55.742-22.14-81.685-18.46s-65.882,13.75-82.456,40-19.885,56.79,6.936,89.22c11.288,12.25,28.4,24.07,44.695,24.62S501.09,1999.78,513.933,2004.03Z" transform="translate(-390.5 -1794.5)"/>
+    <circle class="cls-3" cx="131.5" cy="147.5" r="45"/>
+    <circle id="Ellipse_4_copy" data-name="Ellipse 4 copy" class="cls-3" cx="131.5" cy="147.5" r="76"/>
+    <circle id="Ellipse_4_copy_2" data-name="Ellipse 4 copy 2" class="cls-3" cx="132" cy="148" r="106.5"/>
+    <circle class="cls-4" cx="153.5" cy="252.5" r="5"/>
+    <circle id="Ellipse_5_copy" data-name="Ellipse 5 copy" class="cls-5" cx="36.5" cy="102.5" r="3"/>
+    <circle id="Ellipse_5_copy_2" data-name="Ellipse 5 copy 2" class="cls-6" cx="206.5" cy="158.5" r="3"/>
+    <circle id="Ellipse_3_copy" data-name="Ellipse 3 copy" class="cls-7" cx="198.5" cy="65.5" r="13.625"/>
+    <path id="Shape_6_copy" data-name="Shape 6 copy" class="cls-8" d="M589,1874a14.01,14.01,0,0,1-11.586-6.14h0a10.071,10.071,0,0,1-.911-1.55A14,14,0,1,1,589,1874Zm2.368-1.12a13.084,13.084,0,0,0,4.22-1.57,2.253,2.253,0,0,0-4.33.88A2.283,2.283,0,0,0,591.368,1872.88Zm-15.237-15.32a1.781,1.781,0,0,0,.887.24,1.808,1.808,0,0,0,.24-3.6A13.063,13.063,0,0,0,576.131,1857.56Zm12.489-10.65a1.823,1.823,0,0,0,1.56.9,1.8,1.8,0,0,0,1.385-.66,13.537,13.537,0,0,0-2.565-.25C588.873,1846.9,588.746,1846.9,588.62,1846.91Zm3.888,0.47a2.705,2.705,0,0,1-4.857-.41,13.133,13.133,0,0,0-9.944,6.4,2.71,2.71,0,1,1-1.718,5.13,13.091,13.091,0,0,0,1.049,6.83c0.183,0.38,1.072,1.88,1.162,2.06a0.325,0.325,0,0,1,.015.04A13.1,13.1,0,0,0,589,1873.1a11.853,11.853,0,0,0,1.467-.09,3.153,3.153,0,0,1,5.891-2.18A13.095,13.095,0,0,0,592.508,1847.38Zm5.524,13.52a2.71,2.71,0,1,1,2.71-2.71A2.71,2.71,0,0,1,598.032,1860.9Zm0-4.51a1.805,1.805,0,1,0,1.807,1.8A1.807,1.807,0,0,0,598.032,1856.39Zm-1.807,8.58h-0.9v-0.91h0.9v0.91Zm-1.806-12.65h0.9v0.9h-0.9v-0.9Zm-3.161,9.48a1.35,1.35,0,1,1,1.355-1.35A1.351,1.351,0,0,1,591.258,1861.8Zm0-1.8a0.45,0.45,0,1,0,.451.45A0.45,0.45,0,0,0,591.258,1860Zm0.9,4.51h-0.9v-0.9h0.9v0.9Zm-4.065,6.33H589v0.9h-0.9v-0.9Zm-1.806-4.97h0.9v0.9h-0.9v-0.9Zm-1.049-6.27a1.354,1.354,0,1,1-.88-2.56A1.354,1.354,0,1,1,585.241,1859.6Zm-0.013-1.43a0.451,0.451,0,1,0-.281.57A0.449,0.449,0,0,0,585.228,1858.17Zm-2.1-9.01h0.9v0.9h-0.9v-0.9Zm0.443,5-0.855.29-0.294-.85,0.855-.3Zm-2.617,5.48,0.855-.3,0.293,0.86-0.855.29Zm1.723,4.42a1.355,1.355,0,1,1-1.355,1.36A1.359,1.359,0,0,1,582.677,1864.06Zm0,1.81a0.45,0.45,0,1,0-.452-0.45A0.45,0.45,0,0,0,582.677,1865.87Z" transform="translate(-390.5 -1794.5)"/>
+  </g>
+  <g id="Icon">
+    <path id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-9" d="M480,1965h17a5,5,0,0,1,5,5v10c0,2.76-2.239,2-5,2H480c-2.761,0-5,.76-5-2v-10A5,5,0,0,1,480,1965Z" transform="translate(-390.5 -1794.5)"/>
+    <path id="Rounded_Rectangle_2_copy" data-name="Rounded Rectangle 2 copy" class="cls-10" d="M514,1965h17a5,5,0,0,1,5,5v10c0,2.76-2.239,2-5,2H514c-2.762,0-5,.76-5-2v-10A5,5,0,0,1,514,1965Z" transform="translate(-390.5 -1794.5)"/>
+    <path id="Rounded_Rectangle_2_copy_2" data-name="Rounded Rectangle 2 copy 2" class="cls-9" d="M549,1965h17a5,5,0,0,1,5,5v10c0,2.76-2.239,2-5,2H549c-2.761,0-5,.76-5-2v-10A5,5,0,0,1,549,1965Z" transform="translate(-390.5 -1794.5)"/>
+    <path id="Ellipse_6_copy_2" data-name="Ellipse 6 copy 2" class="cls-11" d="M488.5,1902a12.964,12.964,0,0,1,2.784,25.72c-0.9.18-1.83,4.28-2.784,4.28-0.825,0-1.633-4.07-2.417-4.21A12.969,12.969,0,0,1,488.5,1902Zm34,0a12.964,12.964,0,0,1,2.784,25.72c-0.9.18-1.83,4.28-2.784,4.28-0.825,0-1.632-4.07-2.416-4.21A12.969,12.969,0,0,1,522.5,1902Zm34,0a12.964,12.964,0,0,1,2.784,25.72c-0.9.18-1.83,4.28-2.784,4.28-0.825,0-1.633-4.07-2.417-4.21A12.969,12.969,0,0,1,556.5,1902Z" transform="translate(-390.5 -1794.5)"/>
+    <path id="Rounded_Rectangle_4_copy" data-name="Rounded Rectangle 4 copy" class="cls-12" d="M483,1942h11a1,1,0,0,1,1,1v4a1,1,0,0,1-1,1H483a1,1,0,0,1-1-1v-4A1,1,0,0,1,483,1942Zm68-2h11a1,1,0,0,1,1,1l6,11a1,1,0,0,1-1,1H545a1,1,0,0,1-1-1l6-11A1,1,0,0,1,551,1940Zm-36,2h11a1,1,0,0,1,1,1l2,4a1,1,0,0,1-1,1H517a1,1,0,0,1-1-1l-2-4A1,1,0,0,1,515,1942Z" transform="translate(-390.5 -1794.5)"/>
+    <path id="Rounded_Rectangle_3_copy_2" data-name="Rounded Rectangle 3 copy 2" class="cls-13" d="M485,1949h7a3,3,0,0,1,3,3v5a3,3,0,0,1-3,3h-7a3,3,0,0,1-3-3v-5A3,3,0,0,1,485,1949Zm34,0h7a3,3,0,0,1,3,3v5a3,3,0,0,1-3,3h-7a3,3,0,0,1-3-3v-5A3,3,0,0,1,519,1949Zm34,0h7a3,3,0,0,1,3,3v5a3,3,0,0,1-3,3h-7a3,3,0,0,1-3-3v-5A3,3,0,0,1,553,1949Z" transform="translate(-390.5 -1794.5)"/>
+    <path id="_3" data-name="3" class="cls-8" d="M522.5,1940.38h-9.7a1.622,1.622,0,0,0-1.617,1.62,1.6,1.6,0,0,0,.17.72l3.064,6.12v6.08a8.084,8.084,0,0,0,16.167,0v-6.46A8.1,8.1,0,0,0,522.5,1940.38Zm-7.084,3.23H522.5a4.876,4.876,0,0,1,4.574,3.23H517.033Zm11.934,11.31a4.85,4.85,0,0,1-9.7,0v-4.84h9.7v4.84Zm1.617,8.08H516.034a8.089,8.089,0,0,0-8.084,8.08v11.3a1.615,1.615,0,0,0,1.617,1.62h25.867a1.614,1.614,0,0,0,1.616-1.62v-11.3A8.088,8.088,0,0,0,528.967,1963Zm4.85,17.77h-3.233v-4.85a1.617,1.617,0,0,0-3.234,0v4.85h-9.7v-4.85a1.617,1.617,0,0,0-3.233,0v4.85h-3.233v-9.69a4.849,4.849,0,0,1,4.85-4.85h12.933a4.849,4.849,0,0,1,4.85,4.85v9.69Zm-42.033-40.39h-6.467a4.849,4.849,0,0,0-4.85,4.85v9.69a8.084,8.084,0,0,0,16.167,0v-9.69A4.849,4.849,0,0,0,491.784,1940.38Zm1.616,14.54a4.85,4.85,0,1,1-9.7,0v-4.84h9.7v4.84Zm0-8.08h-9.7v-1.61a1.622,1.622,0,0,1,1.617-1.62h6.467a1.621,1.621,0,0,1,1.616,1.62v1.61Zm1.617,16.16H482.083a8.088,8.088,0,0,0-8.083,8.08v11.3a1.615,1.615,0,0,0,1.617,1.62h25.867a1.615,1.615,0,0,0,1.616-1.62v-11.3A8.088,8.088,0,0,0,495.017,1963Zm4.85,17.77h-3.233v-4.85a1.617,1.617,0,0,0-3.234,0v4.85h-9.7v-4.85a1.617,1.617,0,0,0-3.233,0v4.85h-3.234v-9.69a4.849,4.849,0,0,1,4.85-4.85h12.934a4.849,4.849,0,0,1,4.85,4.85v9.69Zm70.965-29.79h0l-3.574-7.15a12.093,12.093,0,0,0-21.612,0l-3.575,7.15a1.61,1.61,0,0,0,.723,2.16s0,0,0,.01l5.679,2.83a8.04,8.04,0,0,0,15.953,0v-0.01l5.68-2.82A1.619,1.619,0,0,0,570.832,1950.98Zm-9.531,3.94a4.85,4.85,0,0,1-9.7,0v-4.84h9.7v4.84Zm3.233-2.61v-3.85a1.622,1.622,0,0,0-1.617-1.62H549.984a1.622,1.622,0,0,0-1.617,1.62v3.85l-2.68-1.34,2.85-5.7a8.853,8.853,0,0,1,15.827,0l2.85,5.7ZM562.917,1963H549.984a8.088,8.088,0,0,0-8.083,8.08v11.3a1.614,1.614,0,0,0,1.616,1.62h25.867a1.615,1.615,0,0,0,1.617-1.62v-11.3A8.089,8.089,0,0,0,562.917,1963Zm4.85,17.77h-3.233v-4.85a1.617,1.617,0,0,0-3.233,0v4.85h-9.7v-4.85a1.617,1.617,0,0,0-3.234,0v4.85h-3.233v-9.69a4.849,4.849,0,0,1,4.85-4.85h12.933a4.849,4.849,0,0,1,4.85,4.85v9.69Zm-65.459-70.87a14.52,14.52,0,1,0-18.372,18.41l3.167,6.33a1.613,1.613,0,0,0,2.894,0l3.167-6.33A14.525,14.525,0,0,0,502.308,1909.9Zm-2.858,7.67a11.322,11.322,0,0,1-7.857,7.85,1.6,1.6,0,0,0-1.012.83l-2.031,4.06-2.03-4.06a1.6,1.6,0,0,0-1.012-.83A11.307,11.307,0,1,1,499.45,1917.57Zm36.808-7.67a14.519,14.519,0,1,0-18.372,18.41l3.167,6.33a1.613,1.613,0,0,0,2.894,0l3.167-6.33A14.524,14.524,0,0,0,536.258,1909.9Zm-2.858,7.67a11.322,11.322,0,0,1-7.857,7.85,1.6,1.6,0,0,0-1.012.83l-2.031,4.06-2.03-4.06a1.6,1.6,0,0,0-1.012-.83A11.307,11.307,0,1,1,533.4,1917.57Zm36.808-7.67a14.519,14.519,0,1,0-18.371,18.41l3.167,6.33a1.613,1.613,0,0,0,2.894,0l3.167-6.33A14.524,14.524,0,0,0,570.208,1909.9Zm-2.857,7.67a11.325,11.325,0,0,1-7.858,7.85,1.6,1.6,0,0,0-1.012.83l-2.03,4.06-2.031-4.06a1.6,1.6,0,0,0-1.012-.83A11.307,11.307,0,1,1,567.351,1917.57Zm-78.883-8.36a5.378,5.378,0,0,1-3.259,1.9v1.38H485.5a3.59,3.59,0,0,1,1.322.15,0.6,0.6,0,0,1,.363.42,11.087,11.087,0,0,1,.066,1.65v6.36h2.959v-11.86h-1.744Zm34.315,9.84a44.261,44.261,0,0,0,3-4.82,5.255,5.255,0,0,0,.51-2.15,2.947,2.947,0,0,0-.905-2.22,3.709,3.709,0,0,0-2.67-.87,3.808,3.808,0,0,0-1.545.28,2.529,2.529,0,0,0-1.047.84,2.748,2.748,0,0,0-.506,1.14,9.362,9.362,0,0,0-.1,1.57v0.43h2.651v-1.13a2.248,2.248,0,0,1,.165-1.05,0.56,0.56,0,0,1,.5-0.26,0.569,0.569,0,0,1,.5.24,1.277,1.277,0,0,1,.165.72,4.41,4.41,0,0,1-.546,1.75q-0.546,1.125-3.438,5.86l0,1.69h6.511v-2.02h-3.245Zm36.377-5.51a2.857,2.857,0,0,0,.271-1.44,3.262,3.262,0,0,0-.755-2.29,3.8,3.8,0,0,0-2.871-.83,4.053,4.053,0,0,0-2.468.6,2.747,2.747,0,0,0-.776,2.29v1.01h2.959v-0.97a2.19,2.19,0,0,1,.113-0.89,0.435,0.435,0,0,1,.421-0.21,0.449,0.449,0,0,1,.4.2,1.7,1.7,0,0,1,.128.82v0.66a2.448,2.448,0,0,1-.11.85,0.583,0.583,0,0,1-.359.35,6.248,6.248,0,0,1-1.3.08v1.72a5.079,5.079,0,0,1,1.165.11,0.787,0.787,0,0,1,.454.42,2.391,2.391,0,0,1,.154.99v0.82a4.935,4.935,0,0,1-.11,1.38,0.433,0.433,0,0,1-.454.26,0.405,0.405,0,0,1-.407-0.2,3.162,3.162,0,0,1-.091-0.98v-1.93h-2.959v0.94a7.752,7.752,0,0,0,.252,2.38,2.286,2.286,0,0,0,1.055,1.15,4.3,4.3,0,0,0,2.208.48,4.441,4.441,0,0,0,2.029-.41,2.294,2.294,0,0,0,1.113-1.19,5.914,5.914,0,0,0,.323-2.19,5.512,5.512,0,0,0-.33-2.43,1.844,1.844,0,0,0-1-.74A2.358,2.358,0,0,0,559.16,1913.54Z" transform="translate(-390.5 -1794.5)"/>
+  </g>
+</svg>

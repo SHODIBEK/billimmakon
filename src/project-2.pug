@@ -1,0 +1,58 @@
+extends pug/base
+
+append vars
+    - title = 'Наименование категории'
+    - meta.description = 'Описание страницы'
+    - meta.viewport = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+    - link.icon = './favicon.ico'
+    - meta.formatDetection = 'telephone=no'
+    - meta.themeColor = '#1cd8c7'
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1cd8c7">
+    - defaultLink = 'javascript:void(0);'
+    - body.classList = ['inner-page']; 
+block content
+    .wrapper
+        // Шапка сайта
+        include pages/header/header
+        // Контент
+        .main
+            .crumbs
+                .container
+                    ul
+                        li
+                            a(href=`/` title="На главную")
+                                | Главная
+                        li
+                            a(href=`project.html` title="Проекты")
+                                | Проекты
+                        li
+                            a(href=`category.html` title="Проекты иновационного центра Bilim makom")
+                                | Проекты иновационного центра Bilim makom
+                        li
+                            span Наименование категории
+            .inner-title
+                .container
+                    h1
+                        | Наименование категории
+            .main-wrapper
+                .container
+                    .category-section
+                        .category-section__items
+                            - for (var i = 0; i < 8; i++) {
+                                .category-section__item
+                                    a(href="project-inner.html").category-card
+                                        .category-card__name
+                                            | Название категории
+                                        .category-card__img
+                                            img(src=`images/content/projects-${i+1}.jpg`, alt="Наименовние категории")
+                                        .category-card__block
+                                            h1.category-card__title
+                                                | Наименовние категории
+                                            span.category-card__icon.circle-btn
+                                                | Перейти
+                            - }
+        include pages/footer/footer

@@ -1,0 +1,125 @@
+header.header
+    .container
+        .header-wrapper
+            .header-logo
+                a(href="/")
+                    img(src="logo.svg", alt="logo")
+            .header-nav
+                .header-nav-top
+                    .lang
+                        ul.lang-lists
+                            li.lang-list.lang-currentList
+                                a(href="javascript:void(0);" title="Рус")
+                                    | Рус
+                            ul
+                                li.lang-list
+                                    a(href="#" title="O’zb")
+                                        | O’zb
+                                li.lang-list
+                                    a(href="#" title="Ўзб")
+                                        | Ўзб
+                                li.lang-list
+                                    a(href="#" title="Eng")
+                                        | Eng
+                    .header-nav-top-wrap
+                        .social
+                            .social-list
+                                a(href="#" target="_blank" title="Facebook")
+                                    +svg('fb')
+                            .social-list
+                                a(href="#" target="_blank" title="Instagram")
+                                    +svg('inst')
+                            .social-list
+                                a(href="#" target="_blank" title="Youtube")
+                                    +svg('youtube')
+                        .search
+                            button(type="button").search-icon
+                                +svg('search')
+                        .header-btn
+                            button(type="button").btn
+                                | Есть идея?
+                        .mobile-menuBtn
+                            button(type="button")#menuBtn.menuBtn
+                                span
+                .header-nav-bottom
+                    nav.nav
+                        ul.nav-lists
+                            li.nav-list.nav-list-home
+                                a(href="/" title="На Главную").nav-link
+                                    +svg('home')
+                            li.nav-list
+                                a(href="#" title='Проекты').nav-link
+                                    | Проекты
+                            li.nav-list
+                                a(href="javascript:void(0);" title='Родителям').nav-link
+                                    | Родителям
+                                ul.nav-sublist
+                                    li
+                                        a(href="#" title="Вопросы, ответы и инструкции")
+                                            | Вопросы, ответы и инструкции
+                                    li
+                                        a(href="#" title="Как проверить очередь в ДОО?")
+                                            | Как проверить очередь в ДОО?
+                                    li
+                                        a(href="#" title="Сообщить о нарушении")
+                                            | Сообщить о нарушении
+                            li.nav-list
+                                a(href="javascript:void(0);" title='Педагогам').nav-link
+                                    | Педагогам
+                                ul.nav-sublist
+                                    li
+                                        a(href="#" title="Объявления")
+                                            | Объявления
+                                    li
+                                        a(href="#" title="Инструкция по работе с EMIS")
+                                            | Инструкция по работе с EMIS
+                                    li
+                                        a(href="#" title="Профстандарт педагога")
+                                            | Профстандарт педагога
+                                    li
+                                        a(href="#" title="Учебная и воспитательная деятельность")
+                                            | Учебная и воспитательная деятельность
+                                    li
+                                        a(href="#" title="Аттестация педагогических работников")
+                                            | Аттестация педагогических работников
+                                    li
+                                        a(href="#" title="Консультационный центр")
+                                            | Консультационный центр
+                                    li
+                                        a(href="#" title="Антикоррупционная деятельность")
+                                            | Антикоррупционная деятельность
+                            li.nav-list
+                                a(href="javascript:void(0);" title='О центре').nav-link
+                                    | О центре
+                                ul.nav-sublist
+                                    li
+                                        a(href="#" title="О центре")
+                                            | О центре
+                                    li
+                                        a(href="#" title="Лаборатория инноваций «i-Lab»")
+                                            | Лаборатория инноваций «i-Lab»
+                                    li
+                                        a(href="#" title="Экспертиза «i-Check»")
+                                            | Экспертиза «i-Check»
+                                    li
+                                        a(href="#" title="Безопасная среда «i-Safe»")
+                                            | Безопасная среда «i-Safe»
+                            li.nav-list
+                                a(href="javascript:void(0);" title='Пресс-центр').nav-link
+                                    | Пресс-центр
+                                ul.nav-sublist
+                                    li
+                                        a(href="#" title="Новости")
+                                            | Новости
+                                    li
+                                        a(href="#" title="Эксперты отвечают")
+                                            | Эксперты отвечают
+                                    li
+                                        a(href="#" title="Статьи")
+                                            | Статьи
+                            li.nav-list
+                                a(href="#" title='Сотрудничество').nav-link
+                                    | Сотрудничество
+                            li.nav-list
+                                a(href="#" title='Контакты').nav-link
+                                    | Контакты

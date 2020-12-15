@@ -1,0 +1,65 @@
+extends pug/base
+
+append vars
+    - title = 'Объявления'
+    - meta.description = 'Описание страницы'
+    - meta.viewport = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+    - link.icon = './favicon.ico'
+    - meta.formatDetection = 'telephone=no'
+    - meta.themeColor = '#1cd8c7'
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1cd8c7">
+    - defaultLink = 'javascript:void(0);'
+    - body.classList = ['inner-page']; 
+block content
+    .wrapper
+        // Шапка сайта
+        include pages/header/header
+        // Контент
+        .main
+            .crumbs
+                .container
+                    ul
+                        li
+                            a(href=`/` title="На главную")
+                                | Главная
+                        li
+                            span Объявления
+            .inner-title
+                .container
+                    h1
+                        | Объявления
+            .ads
+                .container
+                    .box-toggle-items
+                        -for(var i = 0; i < 9; i++) {
+                            .box-toggle-item
+                                .box-toggle-block
+                                    .box-toggle-date
+                                        span Дата объявления
+                                        date.date 16.05.2020
+                                    .box-toggle-title
+                                        | Здесь будет названия объевления исключительно для пример
+                                .box-toggle-content
+                                    .default-section
+                                        p
+                                            | Товарищи! начало повседневной работы по формированию позиции способствует подготовки и реализации модели развития. Товарищи! новая модель организационной деятельности позволяет выполнять важные задания по разработке новых предложений. С другой стороны начало повседневной работы по формированию позиции требуют от нас анализа дальнейших направлений развития. Повседневная практика показывает, что постоянное 
+                                        p
+                                            | информационно-пропагандистское обеспечение нашей деятельности требуют определения и уточнения существенных финансовых и административных условий.
+                                        p
+                                            | Разнообразный и богатый опыт консультация с широким активом способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.
+                                    .download-items
+                                        each i in ['doc', 'pdf', 'xls', 'jpg']
+                                            .download-item
+                                                .download-item-icon
+                                                    +svg(`${i}`)
+                                                .download-item-info
+                                                    span 3,2 mb.
+                                                    p Наименование документа в две строки или в несколько строк
+                                                    a(href="#")
+                                                        | Скачать
+                        - }
+        include pages/footer/footer

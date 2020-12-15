@@ -1,0 +1,58 @@
+extends pug/base
+
+append vars
+    - title = 'Вакансии'
+    - meta.description = 'Описание страницы'
+    - meta.viewport = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+    - link.icon = './favicon.ico'
+    - meta.formatDetection = 'telephone=no'
+    - meta.themeColor = '#1cd8c7'
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1cd8c7">
+    - defaultLink = 'javascript:void(0);'
+    - body.classList = ['inner-page']; 
+block content
+    .wrapper
+        // Шапка сайта
+        include pages/header/header
+        // Контент
+        .main
+            .crumbs
+                .container
+                    ul
+                        li
+                            a(href=`/` title="На главную")
+                                | Главная
+                        li
+                            span Вакансии
+            .inner-title
+                .container
+                    h1
+                        | Вакансии
+            .main-wrapper
+                .container
+                    .vacancy-section
+                        .vacancy-section__items
+                            - for(var i = 0; i < 9; i++) {
+                                .vacancy-section__item
+                                    a(href="vacancy-inner.html").vacancy-section__link
+                                        .vacancy-section__img
+                                            img(src="images/content/vacancy.jpg", alt="Нименование вакансии")
+                                        .vacancy-section__block
+                                            h1.vacancy-section__name
+                                                | Нименование вакансии
+                                            span.vacancy-section__status
+                                                | Открыта
+                                            p.vacancy-section__desc
+                                                | Повседневная практика показывает, что новая модель организационной деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития. 
+                                            span.vacancy-section__icon
+                                                span.circle-btn
+                                                    | Перейти
+                            - }
+                    .btn-block
+                        button(type="button").btn
+                            span показать еще
+        include pages/footer/footer

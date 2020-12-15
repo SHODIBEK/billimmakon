@@ -1,0 +1,97 @@
+extends pug/base
+
+append vars
+    - title = 'Сообщить о нарушении'
+    - meta.description = 'Описание страницы'
+    - meta.viewport = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+    - link.icon = './favicon.ico'
+    - meta.formatDetection = 'telephone=no'
+    - meta.themeColor = '#1cd8c7'
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1cd8c7">
+    - defaultLink = 'javascript:void(0);'
+    - body.classList = ['inner-page']; 
+block content
+    .wrapper
+        // Шапка сайта
+        include pages/header/header
+        // Контент
+        .main
+            .crumbs
+                .container
+                    ul
+                        li
+                            a(href=`/` title="На главную")
+                                | Главная
+                        li
+                            span Сообщить о нарушении
+            .about
+                .container
+                    .default-section
+                        h1
+                            | Сообщить о нарушении
+                        img(src="images/content/about.jpg", alt="" style="float:left;margin-right: 32px;")
+                        p
+                            | С другой стороны рамки и место обучения кадров в значительной степени обуславливает создание позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт сложившаяся структура организации играет важную роль в формировании соответствующий условий активизации. Не следует, однако забывать, что консультация с широким активом представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям.
+                        p
+                            | Таким образом начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации форм развития. Таким образом рамки и место обучения кадров позволяет выполнять важные задания по разработке форм развития.
+                        h2
+                            | H2 Подзаголовок
+                        p
+                            | Повседневная практика показывает, что начало повседневной работы по формированию позиции играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Товарищи! укрепление и развитие структуры позволяет выполнять важные задания по разработке дальнейших направлений развития.
+                        p
+                            | Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности требуют от нас анализа дальнейших направлений развития. С другой стороны постоянный количественный рост и сфера нашей активности способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также консультация с широким активом играет важную роль в формировании дальнейших направлений развития.
+                    span.cloud
+                .report-block
+                    .container
+                        .report-block-title
+                            | Мы не разглашаем вашу личную информацию, в любое время вы можете отписаться от рассылки
+                        form(action="/" method="POST").report-block-form
+                            .input-group
+                                input(type="text" name="mail" placeholder="Ваша электронная почта" required)
+                                span.message-icon
+                            .input-group
+                                textarea(name="text" placeholder="Текст вашего сообщения" required)
+                                span.text-icon
+                            .submit-btn
+                                button(type="submit").btn
+                                    span Отправить
+                            <div class="visualCaptcha" id="simple-captcha">
+                                <div class="visualCaptcha-possibilities">
+                                    <div class="img">
+                                        <a href="javascript:void(0);" role='shirt'>
+                                            +svg('shirt')
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <a href="javascript:void(0);" role='headphone'>
+                                            +svg('headphone')
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <a href="javascript:void(0);" class='active' role='auto'>
+                                            +svg('auto')
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <a href="javascript:void(0);" role='buggy'>
+                                            +svg('buggy')
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <a href="javascript:void(0);" role='coffee'>
+                                            +svg('coffee')
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <a href="javascript:void(0);" role='airplain'>
+                                            +svg('airplain')
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="visualCaptcha-explanation">Выберите&nbsp;<span class="active">"Детская коляска"</span>, чтобы подтвердить, что&nbsp;Вы не&nbsp;робот</div>
+                            </div>
+        include pages/footer/footer

@@ -1,0 +1,79 @@
+extends pug/base
+
+append vars
+    - title = 'Страница 1 проекта'
+    - meta.description = 'Описание страницы'
+    - meta.viewport = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+    - link.icon = './favicon.ico'
+    - meta.formatDetection = 'telephone=no'
+    - meta.themeColor = '#1cd8c7'
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1cd8c7">
+    - defaultLink = 'javascript:void(0);'
+    - body.classList = ['inner-page']; 
+block content
+    .wrapper
+        // Шапка сайта
+        include pages/header/header
+        // Контент
+        .main
+            .crumbs
+                .container
+                    ul
+                        li
+                            a(href=`/` title="На главную")
+                                | Главная
+                        li
+                            a(href=`#` title="Проекты")
+                                | Проекты
+                        li
+                            span Обеспечение ГДОО и НДОО комплексами учебно-дидактических материалов   
+            .project
+                .container
+                    .default-section
+                        h1
+                            | Обеспечение ГДОО и НДОО комплексами учебно-дидактических материалов
+                        img(src="images/content/project-1.jpg", alt="" style="float:left;margin-right: 32px; margin-bottom: 20px")
+                        p
+                            | Товарищи! начало повседневной работы по формированию позиции способствует подготовки и реализации модели развития. Товарищи! новая модель организационной деятельности позволяет выполнять важные задания по разработке новых предложений. С другой стороны начало повседневной работы по формированию позиции требуют от нас анализа дальнейших направлений развития. Повседневная практика показывает, что постоянное 
+                        p
+                            | информационно-пропагандистское обеспечение нашей деятельности требуют определения и уточнения существенных финансовых и административных условий.
+                        p
+                            | Разнообразный и богатый опыт консультация с широким активом способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.
+                    .back-link
+                        button(type="button" onclick="window.history.go(-1); return false;").btn.btn-back
+                            +svg('back')
+                            span Назад
+                    span.cloud
+                    .project-gallery
+                        .project-gallery-items
+                            .project-gallery-item.grid-column-2-1
+                                .project-gallery-block
+                                    a(href="images/content/projects-1.jpg" data-fancybox="gallery")
+                                        img(src="images/content/projects-1.jpg", alt="")
+                                    a(href="images/content/projects-2.jpg" data-fancybox="gallery")
+                                        img(src="images/content/projects-2.jpg", alt="")
+                                .project-gallery-block
+                                    a(href="images/content/projects-3.jpg" data-fancybox="gallery")
+                                        img(src="images/content/projects-3.jpg", alt="")
+                            .project-gallery-item.grid-column-1-1
+                                .project-gallery-block
+                                    a(href="images/content/projects-4.jpg" data-fancybox="gallery")
+                                        img(src="images/content/projects-4.jpg", alt="")
+                                .project-gallery-block
+                                    a(href="images/content/projects-5.jpg" data-fancybox="gallery")
+                                        img(src="images/content/projects-5.jpg", alt="")
+                            .project-gallery-item.grid-column-3
+                                .project-gallery-block
+                                    a(href="images/content/projects-6.jpg" data-fancybox="gallery")
+                                        img(src="images/content/projects-6.jpg", alt="")
+                                .project-gallery-block
+                                    a(href="images/content/projects-7.jpg" data-fancybox="gallery")
+                                        img(src="images/content/projects-7.jpg", alt="")
+                                .project-gallery-block
+                                    a(href="images/content/projects-8.jpg" data-fancybox="gallery")
+                                        img(src="images/content/projects-8.jpg", alt="")
+        include pages/footer/footer

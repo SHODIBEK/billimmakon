@@ -1,0 +1,9 @@
+.modal.search-modal
+    .close
+    .modal-wapper
+        h5 Что будем искать?
+        form(action="/" method="POST").modal-form
+            .input-group
+                input(type="text" name="search" placeholder="Поиск по сайту")
+                button(type='submit').modal-submit
+                    +svg('search')

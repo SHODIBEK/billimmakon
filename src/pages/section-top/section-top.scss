@@ -1,0 +1,141 @@
+.section-top {
+    padding-top: 312px;
+    min-height: 716px;
+    background: $color-primary;
+    @include tablet {
+        padding-top: 250px;
+    }
+    @include mobile {
+        min-height: auto;
+        padding-top: 260px;
+        padding-bottom: 36px;
+    }
+    &-wrapper {
+        position: relative;
+        display: flex;
+    }
+
+    &-text {
+        display: block;
+        width: 55%;
+        padding-bottom: 207px;
+        @include tablet {
+            width: 70%;
+        }
+        @include mobile {
+            padding-bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+        h3 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 26px;
+            color: $color-black;
+            @include mobile {
+                font-size: 18px;
+                line-height: 24px;
+                margin-bottom: 14px;
+            }
+        }
+        h1 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-weight: normal;
+            font-size: 36px;
+            color: $color-white;
+            @include mobile {
+                margin-bottom: 19px;
+                font-size: 30px;
+                line-height: 30px;
+            }
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 16px;
+            line-height: 25px;
+            color: $color-white;
+            @include mobile {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+    &-img {
+        position: absolute;
+        top: -117px;
+        right: -120px;
+        @include tablet {
+            top: -90px;
+            right: -400px;
+        }
+        @include mobile {
+            display: none;
+        }
+    }
+}
+
+.scene-bg {
+    width: 659px;
+    height: 659px;
+    background: url('../images/content/boy.png') no-repeat center;
+}
+.scene-rocket {
+    position: absolute!important;
+    top: unset!important;
+    bottom: 157px!important;
+    left: 50px!important;
+    width: 31px;
+    height: 38px;
+    background: url('../images/content/rocket.png') no-repeat center;
+}
+
+.scene-planet {
+    position: absolute!important;
+    left: unset!important;
+    top: unset!important;
+    bottom: 157px!important;
+    right: -30px!important;
+    width: 48px;
+    height: 47px;
+    background: url('../images/content/planet.png') no-repeat center;
+}
+
+.scene-star {
+    position: absolute!important;
+    left: unset!important;
+    top: 30px !important;
+    right: 200px !important;
+    width: 20px;
+    height: 20px;
+    background: url('../images/content/star.png') no-repeat center;
+}
+
+.scene-bigplanet {
+    position: absolute;
+    left: 69px;
+    bottom: -169px;
+    width: 256px;
+    height: 268px;
+    background: url('../images/content/bigplanet.png') no-repeat center;
+    animation: bounce 3s infinite linear;  
+    @include mobile {
+        display: none;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}

@@ -1,0 +1,17 @@
+section.section-four
+    .container
+        .section-four-wrapper
+            span.section-four-title
+                | Реализованные проекты
+            a(href="#").section-four-link
+                +svg('arrowtop')
+                span смотреть все проекты
+            .project-slider.owl-carousel
+                -for(var i = 0; i < 4; i++) {
+                    .project-slider-item
+                        a(href="#").project-slider-title
+                            span Обеспечение ГДОО и НДОО комплексами учебно-дидактических материалов
+                        a(href="#").project-slider-img
+                            img(src="images/content/project-1.jpg", alt="")
+                - }
+            .project-slider-counter

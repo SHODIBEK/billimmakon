@@ -1,0 +1,131 @@
+extends pug/base
+
+append vars
+    - title = ' Есть идея'
+    - meta.description = 'Описание страницы'
+    - meta.viewport = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+    - link.icon = './favicon.ico'
+    - meta.formatDetection = 'telephone=no'
+    - meta.themeColor = '#1cd8c7'
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1cd8c7">
+    - defaultLink = 'javascript:void(0);'
+    - body.classList = ['inner-page idea-page']; 
+block content
+    .wrapper
+        // Шапка сайта
+        include pages/header/header
+        // Контент
+        .main
+            .crumbs
+                .container
+                    ul
+                        li
+                            a(href=`/` title="На главную")
+                                | Главная
+                        li
+                            span  Есть идея
+            .inner-title
+                .container
+                    h1
+                        | Есть идея?
+            .main-wrapper
+                .container
+                    .idea-block
+                        .idea-block-items
+                            .idea-block-item
+                                .idea-block-icon(style="background-image: url('images/icons/icon10.svg')")
+                                h5
+                                    | Мы рассмотрим Вашу идею
+                                p
+                                    | Опишите суть вашей идеи, приложите изображения или рисунки, наши специалисты рассмотрят идею и ответят Вам.
+                            .idea-block-item
+                                .idea-block-icon(style="background-image: url('images/icons/icon11.svg')")
+                                h5
+                                    | Пригласим Вас в иновационный центр
+                                p
+                                    | Если ваша идея окажется перспективной,  мы пригласим вас на встречу в иновационный центр
+                .idea-block-form
+                    h5 Оставьте свои данные и мы свяжемся с вами в течении нескольких минут
+                    form(action="/" method="POST").idea-form
+                        .idea-form-wrapper
+                            .container
+                                .input-groups
+                                    .input-group
+                                        input(type="text" name="title" placeholder="Заголовок")
+                                        span.text-icon
+                                    .input-group
+                                        textarea(name="text" placeholder="Описание идеи")
+                                        span.textarea-icon
+                                .upload-files
+                                    -for(var i = 0; i < 2; i++) {
+                                        .upload-file
+                                            .upload-file-info
+                                                .upload-file-icon
+                                                    +svg('doc')
+                                                .upload-file-name
+                                                    p
+                                                        | Наименование документа
+                                                    span 13.37 kb
+                                            .upload-file-delete
+                                                a(href="#")
+                                                    | Удалить
+                                    -}
+                                .upload-btn
+                                    <input type="file" id='files' name="files[]" multiple hidden="hidden">
+                                    label(for="files").btn.btn-file
+                                        +svg('file')
+                                        span Прикрепить файл
+                        .idea-form-bottom
+                            .container
+                                h5
+                                    | Сбор данных
+                                .input-groups
+                                    .input-group
+                                        input(type="email" name='email' placeholder="Ваша электронная почта *" required)
+                                        span.message-icon
+                                    .input-group
+                                        input(type="text" name='name' placeholder="ФИО" required)
+                                        span.man-icon
+                                .submit-btn
+                                    button(type="submit").btn
+                                        span Отправить
+                                <div class="visualCaptcha" id="simple-captcha">
+                                <div class="visualCaptcha-possibilities">
+                                    <div class="img">
+                                        <a href="javascript:void(0);" role='shirt'>
+                                            +svg('shirt')
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <a href="javascript:void(0);" role='headphone'>
+                                            +svg('headphone')
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <a href="javascript:void(0);" class='active' role='auto'>
+                                            +svg('auto')
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <a href="javascript:void(0);" role='buggy'>
+                                            +svg('buggy')
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <a href="javascript:void(0);" role='coffee'>
+                                            +svg('coffee')
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <a href="javascript:void(0);" role='airplain'>
+                                            +svg('airplain')
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="visualCaptcha-explanation">Выберите&nbsp;<span class="active">"Детская коляска"</span>, чтобы подтвердить, что&nbsp;Вы не&nbsp;робот</div>
+                            </div>
+        include pages/footer/footer
